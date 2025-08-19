@@ -41,8 +41,7 @@ The Figma was used for domain abstraction and solution design.
 
 ## Class Diagram (API Domain)
 
-````mermaid
-classDiagram
+````classDiagram
   class User {
     -String name
     -Account account
@@ -76,64 +75,8 @@ classDiagram
   User "1" *-- "1" Account
   User "1" *-- "N" Feature
   User "1" *-- "1" Card
-  User "1" *-- "N" News# Santander Dev Week 2023
-
-Java RESTful API criada para a Santander Dev Week.
-
-## Principais Tecnologias
-
-  ## Diagrama de Classes
-
-  ```mermaid
-  classDiagram
-    class Application
-    class UserController
-    class GlobalExceptionHandler
-    class UserService
-    class UserServiceImpl
-    class UserRepository
-    class User
-    class Account
-    class Card
-    class Feature
-    class News
-    Application --> UserController
-    UserController --> UserService
-    UserService <|.. UserServiceImpl
-    UserServiceImpl --> UserRepository
-    UserRepository --> User
-    User --> Account
-    User --> Card
-    User --> Feature
-    User --> News
+  User "1" *-- "N" News
 ````
-
-    -Number balance
-    -Number limit
-
-}
-
-class Feature {
--String icon
--String description
-}
-
-class Card {
--String number
--Number limit
-}
-
-class News {
--String icon
--String description
-}
-
-User "1" _-- "1" Account
-User "1" _-- "N" Feature
-User "1" _-- "1" Card
-User "1" _-- "N" News
-
-```
 
 ## IMPORTANTE
 
