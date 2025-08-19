@@ -41,7 +41,8 @@ The Figma was used for domain abstraction and solution design.
 
 ## Class Diagram (API Domain)
 
-````classDiagram
+```mermaid
+classDiagram
   class User {
     -String name
     -Account account
@@ -76,7 +77,7 @@ The Figma was used for domain abstraction and solution design.
   User "1" *-- "N" Feature
   User "1" *-- "1" Card
   User "1" *-- "N" News
-````
+```
 
 ## IMPORTANTE
 
