@@ -1,4 +1,4 @@
-# Santander Dev Week 2023 (Didactic Fork)
+# Santander Dev Backend JAVA 2025 (Didactic Fork)
 
 Java RESTful API created for Santander Dev Week, **forked and adapted with a didactic focus** to demonstrate backend concepts and best practices.
 
